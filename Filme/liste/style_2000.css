@@ -1,0 +1,32 @@
+.filme{
+         width: 550px;
+         font-size: 13px;
+}
+.imdb{
+         font-size: 10px;
+         width: 52px;
+}
+.fs{
+         font-size: 10px;
+         width: 100px;
+}
+.lang{
+         font-style: italic;
+         font-size: 9px;
+}
+.line{
+         background-color: #444444;
+         height: 1px;
+}
+.k4{
+	/* _grau */
+         background-color: #CCCCCC;
+	width: 10px;
+         height: 10px;
+}
+.k2{
+	/* schwarz */
+         background-color: #000000;
+	width: 10px;
+         height: 10px;
+}

@@ -1,0 +1,52 @@
+
+body {
+	background-color: #000000;
+	background-image: url(http://www.gucknicht.de/_bg.jpg);
+	background-attachment:fixed;
+         background-repeat: no-repeat;
+         background-position: top center;
+
+	color: #FFFFFF;
+	font-size: 12px;
+	font-family: Verdana;
+}
+td{
+	color: #FFFFFF;
+	font-size: 12px;
+	font-family: Verdana;
+}
+inv{
+         background-color: #000000;
+         color: #FFFFFF;
+         font-size: 14px;
+}
+imdb{
+	background-color: #CCCCCC;
+	color: #000000;
+}
+imdbMe{
+	font-style: italic;
+	color: #AAAAAA;
+}
+
+.cover{
+         width: 80px;
+         height: 120px;
+}
+
+a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:hover {
+	color: darkred;
+	text-decoration: underline;
+}

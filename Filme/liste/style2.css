@@ -1,0 +1,39 @@
+
+/** Cover-Ansicht **/
+
+body {
+	color: #000000;
+	font-size: 20px;
+	font-family: Verdana;
+}
+td{
+	color: #000000;
+	font-size: 20px;
+	font-family: Verdana;
+}
+
+inv{
+         background-color: #000000;
+         color: #FFFFFF;
+         font-size: 22px;
+}
+imdb{
+         background-color: #CCCCCC;
+}
+
+.cover{
+		 width: 214px;
+}
+.search{
+         font-size: 15px;
+}
+
+.ColTitle{
+         width: 400px;
+}
+.ColFacts{
+         width: 600px;
+}
+.ColText{
+         width: 0px;
+}

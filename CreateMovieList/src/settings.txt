@@ -1,0 +1,65 @@
+movieDirs
+K:\Filme (2)
+N:\Filme (3)
+-
+syncTargetDir
+N:\Filme (3)
+N:\Filme - CopyOfKarl
+-
+fileExtensionsMovies
+avi mkv mp4 m4v mpeg mpg flv
+-
+fileExtensionsMovies_badQuality
+mpeg mpg flv
+-
+cachedIMDbInfo
+data\\movieCache.txt
+-
+ownCachedIMDbRating
+data\\myIMDbRating.xls
+-
+fileToDistinguishSimilarMovienames
+data\\moviesToDistinguish.html
+-
+templateHtml
+#templates\\index.html
+-
+movieTemplateFile
+#templates\\oneMovie.html
+-
+outputHtmlRoot
+C:\\Dropbox\\Computing\\Web\\Filme\\liste\\
+-
+outputHtml
+C:\\Dropbox\\Computing\\Web\\Filme\\liste\\index###styleID###.html
+-
+outputHtmlMobile
+C:\\Dropbox\\Computing\\Web\\Filme\\liste\\mobil.html
+-
+directoryOfCoverPics
+C:\\Dropbox\\Computing\\Web\\Filme\\liste\\covers\\
+-
+batch_copyCoversToDirsFile
+output_batch\\copy Covers to Dir.bat
+-
+batch_deleteMoviesFile
+output_batch\\delete_unwanted_movies.x
+-
+batch_sync
+output_batch\\sync.bat
+-
+exceptedFromSyncListPath
+data\\doNotSync.txt
+-
+matchesFromWebsearch
+data/MovieSearchMatches.txt
+-
+dirToStoreAndStreamMatches
+/opt/apache-tomcat-8.0.21/webapps/ROOT/f/movieTempDir
+-
+currentServerIP
+thesis.dlinkddns.com
+-
+
+
+-

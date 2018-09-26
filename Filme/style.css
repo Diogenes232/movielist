@@ -1,0 +1,28 @@
+
+body {
+	color: #FFFFFF;
+	font-size: 12px;
+	font-family: Verdana;
+}
+
+k{
+	font-size: 16px;
+}
+
+
+a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
