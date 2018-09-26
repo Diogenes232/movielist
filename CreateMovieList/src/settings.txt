@@ -28,16 +28,16 @@ movieTemplateFile
 #templates\\oneMovie.html
 -
 outputHtmlRoot
-C:\\Dropbox\\Computing\\Web\\Filme\\liste\\
+D:\\Coding\\MovieList\\Filme\\liste\\
 -
 outputHtml
-C:\\Dropbox\\Computing\\Web\\Filme\\liste\\index###styleID###.html
+D:\\Coding\\MovieList\\Filme\\liste\\index###styleID###.html
 -
 outputHtmlMobile
-C:\\Dropbox\\Computing\\Web\\Filme\\liste\\mobil.html
+D:\\Coding\\MovieList\\Filme\\liste\\mobil.html
 -
 directoryOfCoverPics
-C:\\Dropbox\\Computing\\Web\\Filme\\liste\\covers\\
+D:\\Coding\\MovieList\\Filme\\liste\\covers\\
 -
 batch_copyCoversToDirsFile
 output_batch\\copy Covers to Dir.bat
