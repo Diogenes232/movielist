@@ -724,7 +724,6 @@ def walkThroughDirs(allDirs):
     
     # Verzeichnisdaten auslesen
     for rootdir in allDirs:
-        print rootdir
         rootdirsDepth = len(rootdir.split("\\"))
         for root, dirs, files in os.walk(rootdir):
             for file in files:
