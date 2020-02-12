@@ -1078,7 +1078,7 @@ def giveHtmlList(allMovs_dictSorted, allMovs_dict, genreList, possibleHDDs):
         temp = ''
         if "director" in dict and dict["director"]:
             if "link" in dict and dict["link"]:
-                temp += '<a href="' + dict["link"] + 'fullcredits" target="_blank">'
+                temp += '<a href="' + dict["link"] + '/fullcredits" target="_blank">'
             temp += '<b>' + shortenMovieFact(dict["director"]) + '</b>'
             if "link" in dict and dict["link"]:
                 temp += '</a>'
@@ -1094,7 +1094,7 @@ def giveHtmlList(allMovs_dictSorted, allMovs_dict, genreList, possibleHDDs):
         temp = ''
         if "writer" in dict and dict["writer"]:
             if "link" in dict and dict["link"]:
-                temp += '<a href="' + dict["link"] + 'fullcredits" target="_blank">'
+                temp += '<a href="' + dict["link"] + '/fullcredits" target="_blank">'
             temp += shortenMovieFact(dict["writer"])
             if "link" in dict and dict["link"]:
                 temp += '</a>'
@@ -1104,7 +1104,7 @@ def giveHtmlList(allMovs_dictSorted, allMovs_dict, genreList, possibleHDDs):
         temp = ''
         if "star" in dict and dict["star"]:
             if "link" in dict and dict["link"]:
-                temp += '<a href="' + dict["link"] + 'fullcredits#cast" target="_blank">'
+                temp += '<a href="' + dict["link"] + '/fullcredits#cast" target="_blank">'
             temp += shortenMovieFact(dict["star"])
             if "link" in dict and dict["link"]:
                 temp += '</a>'
