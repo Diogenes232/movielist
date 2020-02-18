@@ -6,3 +6,4 @@ Filme/liste/covers/*.jpg
 CreateMovieList/src/data/*.trash
 CreateMovieList/src/output_batch/copy Covers to Dir.bat
 *.lnk
+Filme/liste/covers/

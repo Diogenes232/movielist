@@ -4,7 +4,7 @@ N:\Filme (3)
 -
 syncTargetDir
 N:\Filme (3)
-N:\Filme - CopyOfKarl
+N:\Filme - Copy of Karl
 -
 fileExtensionsMovies
 avi mkv mp4 m4v mpeg mpg flv

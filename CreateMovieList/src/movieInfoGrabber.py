@@ -429,7 +429,7 @@ def getIMDbInfoFromPyIMDb(imdbInfo):
 
     # hole von IMDb
     imdbParse = False
-    print "  parsing from IMDb: " + moviename,
+    print "\n  parsing from IMDb: " + moviename,
 
     imdbParse = askIMDb(moviename)
     
@@ -521,7 +521,7 @@ def getIMDbInfoFromImdbpie(imdbInfo):
     return imdbInfo
 def getIMDbInfoFromOMDbApi(imdbInfo):
     # send request
-    print "  parsing from OMDb-API '" + imdbInfo["moviename"] + "'",
+    print "\n  parsing from OMDb-API '" + imdbInfo["moviename"] + "'",
     link = "http://www.omdbapi.com/?apikey=4cf062d6&i="+imdbInfo["link"].split("title/")[1].split("/")[0]
     answerUntouched = http.request('GET', link)
     
@@ -605,7 +605,7 @@ def getIMDbSecondPageInfo(imdb_dict):
     if imdb_dict["moviename"] in imdbLocalCache and "year" in imdbLocalCache[imdb_dict["moviename"]]:
         return imdb_dict
     else:
-        print "  parsing from IMDb(2): " + mname,
+        print "\n  parsing from IMDb(2): " + mname,
         
         # Suchlink erstellen
         link = "http://www.deanclatworthy.com/imdb/?q=" + mname.replace(r' ', r'+')
